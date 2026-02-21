@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 2569343187
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: asteroids
+      Dependencies: {}

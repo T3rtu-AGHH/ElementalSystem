@@ -1,0 +1,62 @@
+{
+    "name": "Sodium",
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "ElementalSystem",
+    "Base": {
+        "groundSize": 0,
+        "surfaceSize": 100,
+        "surfaceGravity": 12
+    },
+    "Orbit": {
+        "semiMajorAxis": 160,
+        "primaryBody": "Close Companions",
+        "isMoon": true,
+        "isTidallyLocked": true,
+        "alignmentAxis": {
+            "x": -1,
+            "y": 0,
+            "z": 0 
+        }
+    },
+    "Atmosphere": {
+        "atmosphereSunIntensity" : 0.1,
+        "atmosphereTint": {
+            "r": 210,
+            "g": 215,
+            "b": 252,
+            "a": 55
+        },
+        "size": 140,
+        "fogTint": {
+            "r": 210,
+            "g": 215,
+            "b": 252,
+            "a": 255
+        },
+        "fogSize": 140,
+        "fogDensity": 0.1,
+        "useAtmosphereShader" : false,
+        "hasRain": false
+        
+        
+    },
+    "MapMarker": {
+        "enabled": true
+    },
+    "Props": {
+        
+        "details": [
+            {
+                "assetBundle": "planets/Assets/Bundle1/elementalsystembundle",
+                "path": "Assets/What am i doing here/ShateredEarthPlanet.prefab",
+                "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0},
+                "keepLoaded": true,
+                "scale": 0.7
+            }
+        ]
+    }
+
+}

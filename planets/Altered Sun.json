@@ -1,0 +1,52 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Hydrogen",
+    "starSystem": "ElementalSystem",
+	    "removeChildren": [
+        "Sector/Star/Audio_Star/SurfaceAudio_Sun"
+    ],
+	"Base" :
+	{
+		"surfaceGravity" : 25,
+		"surfaceSize" : 800,
+		"gravityFallOff" : "inverseSquared",
+		"centerOfSolarSystem": true
+	},
+	"Orbit" :
+	{
+		"showOrbitLine" : false,
+		"isStatic" : true
+	},
+	"Star" :
+	{
+		"size" : 850,
+		"lifespan": 10.4,
+		"curve": [
+			{ "time": 4, "value": 1 },
+			{ "time": 20.4, "value": 2.35 }
+		],
+		
+        "tint" : 
+		{
+			"r" : 166,
+			"g" : 150,
+			"b" : 255,
+			"a" : 255
+		},
+		"endTint": {
+			"r": 190,
+			"g": 132,
+			"b": 245,
+			"a": 0
+		},
+		"lightTint" :
+		{
+			"r" : 225,
+			"g" : 220,
+			"b" : 252,
+			"a" : 255
+		},
+		"solarLuminosity" : 1,
+        "stellarDeathType": "supernova"
+	}
+}

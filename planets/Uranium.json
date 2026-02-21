@@ -1,0 +1,81 @@
+{
+    "name": "Uranium",
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "ElementalSystem",
+    "Base": {
+        "groundSize": 0,
+        "surfaceSize": 100,
+        "surfaceGravity": 12
+    },
+    "Orbit": {
+        "semiMajorAxis": 2900,
+        "primaryBody": "Hydrogen",
+        "isMoon": false,
+        "isTidallyLocked": false,
+        "alignmentAxis": {
+            "x": 0,
+            "y": 0,
+            "z": 0 
+        },
+        "siderealPeriod": 2,
+        "trueAnomaly": 200,
+        "tint": 
+        {
+            "r": 195,
+            "g": 209,
+            "b": 161,
+            "a": 255
+        }
+    },
+     "Volumes": 
+    {
+        "audioVolumes": 
+        [
+            {
+                "loop": true,
+                "radius": 140,
+                "audio": "planets/Assets/BH_Ambience_SurfaceBH_Ambience_Surface.ogg",
+                "volume": 1
+            }
+        ]
+    },
+    "Atmosphere": {
+        "atmosphereSunIntensity" : 0.1,
+        "atmosphereTint": {
+            "r": 189,
+            "g": 217,
+            "b": 255,
+            "a": 55
+        },
+        "size": 150,
+        "fogTint": {
+            "r": 189,
+            "g": 217,
+            "b": 255,
+            "a": 255
+        },
+        "fogSize": 140,
+        "fogDensity": 0.2,
+        "useAtmosphereShader" : false,
+        "hasRain": false
+        
+        
+    },
+    "MapMarker": {
+        "enabled": true
+    },
+    "Props": {
+        "details": [
+            {
+                "assetBundle": "planets/Assets/ElementalSystem2/asteroids",
+                "path": "Assets/What am i doing here/UraniumPlanet.prefab",
+                "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0},
+                "keepLoaded": true,
+                "scale" : 0.75
+            }
+        ]
+    }
+}

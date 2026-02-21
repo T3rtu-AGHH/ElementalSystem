@@ -1,0 +1,25 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+	"canEnterViaWarpDrive": true,
+	"startHere": false,
+	"respawnHere": false,
+	"GlobalMusic": {
+		"travelAudio": "planets/Assets/TravelMusic.mp3",
+		"endTimesAudio": "planets/Assets/EdHerbers_EndTimes(OuterWildsCover).mp3"
+
+	},
+	"loopDuration": 10.5,
+	"freeMapAngle": true,
+	"StarChart": 
+	{
+		"color": 
+		{
+			"r" : 166,
+			"g" : 150,
+			"b" : 255,
+			"a" : 255
+		},
+		"position": {"x" : 185, "y" : 109 },
+		"disappearanceTime": 10.40
+	}
+}

@@ -1,0 +1,254 @@
+{
+    "name": "Helium",
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "ElementalSystem",
+    "Base": {
+        "groundSize": 0,
+        "surfaceSize": 150,
+        "surfaceGravity": 24
+    },
+    "Orbit": {
+        "semiMajorAxis": 3750,
+        "primaryBody": "Hydrogen",
+        "isMoon": false,
+        "isTidallyLocked": false,
+        "alignmentAxis": {
+            "x": 0,
+            "y": 0,
+            "z": 0 
+        },
+        "siderealPeriod": 2,
+        "trueAnomaly": 160,
+        "tint": 
+        {
+            "r": 159,
+            "g": 156,
+            "b": 255,
+            "a": 255
+        }
+    },
+    "AmbientLights": 
+    [
+        {
+            "intensity": 1
+        },
+        {
+            "outerRadius": 290
+        }
+    ],
+    
+    "Water": {
+     "tint" :{
+         "r": 122,
+         "g": 126,
+         "b": 191,
+         "a": 155
+        },
+        "size" : 180
+    },
+    "Atmosphere": {
+        "atmosphereSunIntensity" : 0.1,
+        "atmosphereTint": {
+            "r": 227,
+            "g": 189,
+            "b": 255,
+            "a": 55
+        },
+        "clouds": {
+            "cloudsPrefab" : "giantsDeep",
+            "hasLightning" : false,
+            "outerCloudRadius" : 300,
+            "innerCloudRadius" : 280,
+            "texturePath" : "planets/Assets/Clouds.png",
+            "tint" :{
+               "r": 128,
+               "g": 148,
+               "b": 168,
+               "a": 155
+            }
+        },
+        "size": 300,
+        "fogTint": {
+            "r": 227,
+            "g": 189,
+            "b": 255,
+            "a": 255
+        },
+        "fogSize": 250,
+        "fogDensity": 0.2,
+        "useAtmosphereShader" : true,
+        "hasRain": true
+    },
+    "MapMarker": {
+        "enabled": true
+    },
+    "Props": 
+    {
+        "details": 
+        [
+            {
+                "position": {"x":  -86.75558, "y": -109.0299, "z": -157.1177},
+                "assetBundle": "planets/Assets/ElementalSystem2/asteroids",
+                "path": "Assets/What am i doing here/Asteroid1.prefab"
+            },
+            {
+                "position": {"x":  147.3836, "y": 50.84706, "z": 140.6864},
+                "assetBundle": "planets/Assets/ElementalSystem2/asteroids",
+                "path": "Assets/What am i doing here/Asteroid3.prefab"
+            },
+            {
+                "position": {"x":  -68.56469, "y": 67.10478, "z": 186.8043},
+                "assetBundle": "planets/Assets/ElementalSystem2/asteroids",
+                "path": "Assets/What am i doing here/Asteroid4.prefab"
+            },
+            {
+                "position": {"x":  -193.2031, "y":-78.72098, "z": 23.99127},
+                "assetBundle": "planets/Assets/ElementalSystem2/asteroids",
+                "path": "Assets/What am i doing here/Asteroid5.prefab"
+            },
+            {
+                "position": {"x": -86.75558, "y":-109.0299, "z": -157.1177},
+                "assetBundle": "planets/Assets/ElementalSystem2/asteroids",
+                "path": "Assets/What am i doing here/Asteroid2.prefab"
+            },
+            {
+                "position": {"x": 150.724, "y": 121.3481, "z": -81.59007},
+                "assetBundle": "planets/Assets/ElementalSystem2/asteroids",
+                "path": "Assets/What am i doing here/Asteroid5.prefab"
+            },
+            {
+                "position": {"x": 147.3836, "y": 50.84706, "z": 140.6864},
+                "assetBundle": "planets/Assets/ElementalSystem2/asteroids",
+                "path": "Assets/What am i doing here/Asteroid1.prefab"
+            },
+            {
+                "position": {"x": -68.56469, "y": 67.10478, "z": 186.8043},
+                "assetBundle": "planets/Assets/ElementalSystem2/asteroids",
+                "path": "Assets/What am i doing here/Asteroid1.prefab"
+            },
+            {
+                "position": {"x": -193.2031, "y": -78.72098, "z": 23.99127},
+                "assetBundle": "planets/Assets/ElementalSystem2/asteroids",
+                "path": "Assets/What am i doing here/Asteroid1.prefab"
+            },
+            {
+                "position": {"x": -86.75558, "y": -109.0299, "z": -157.1177},
+                "assetBundle": "planets/Assets/ElementalSystem2/asteroids",
+                "path": "Assets/What am i doing here/Asteroid5.prefab"
+            },
+            {
+                "position": {"x": 203.8996, "y": 22.75542, "z": -44.80141},
+                "assetBundle": "planets/Assets/ElementalSystem2/asteroids",
+                "path": "Assets/What am i doing here/Asteroid3.prefab"
+            },
+            {
+                "position": {"x": -162.4873, "y": 91.15874, "z": 96.89159},
+                "assetBundle": "planets/Assets/ElementalSystem2/asteroids",
+                "path": "Assets/What am i doing here/Asteroid3.prefab"
+            }
+        ],
+        "tornados": 
+        [
+            {
+                 "position": {"x": 22.02662, "y": 149.5555, "z": -97.71381},
+                "tint": {
+                    "r": 122, "g": 126, "b": 191
+                },
+                "height": 100,
+                "fluidType": "air",
+                "wanderRate": 0
+            },
+            {
+                 "position": {"x":  7.463089, "y": 173.9568, "z": -45.64351},
+                "tint": {
+                    "r": 122, "g": 126, "b": 191
+                },
+                "height": 100,
+                "fluidType": "air",
+                "wanderRate": 0
+            },
+            {
+                "position": {"x":  -34.91595, "y": 142.398, "z": 104.4207},
+                "tint": {
+                    "r": 122, "g": 126, "b": 191
+                },
+                "height": 100,
+                "fluidType": "air",
+                "wanderRate": 0
+            },
+            {
+                "position": {"x":  27.97958, "y": 65.85532, "z": 165.1672},
+                "tint": {
+                    "r": 122, "g": 126, "b": 191
+                },
+                "height": 100,
+                "fluidType": "air",
+                "wanderRate": 0
+            },
+            {
+                "position": {"x":  35.78293, "y": -174.1265, "z": -28.27627},
+                "tint": {
+                    "r": 122, "g": 126, "b": 191
+                },
+                "height": 100,
+                "fluidType": "air",
+                "wanderRate": 0
+            },
+            {
+                "position": {"x":  -58.71874, "y": -134.7168, "z": -103.9399},
+                "tint": {
+                    "r": 122, "g": 126, "b": 191
+                },
+                "height": 100,
+                "fluidType": "air",
+                "wanderRate": 0
+            },
+            {
+                "position": {"x":  -109.1973, "y": -54.52363, "z": -132.2993},
+                "tint": {
+                    "r": 122, "g": 126, "b": 191
+                },
+                "height": 100,
+                "fluidType": "air",
+                "wanderRate": 0
+            },
+            {
+                "position": {"x":  -164.6238, "y": 69.48971, "z": 21.68409},
+                "tint": {
+                    "r": 122, "g": 126, "b": 191
+                },
+                "height": 100,
+                "fluidType": "air",
+                "wanderRate": 0
+            },
+            {
+                "position": {"x":  -163.3183, "y": -39.75603, "z": 64.39417},
+                "tint": {
+                    "r": 122, "g": 126, "b": 191
+                },
+                "height": 100,
+                "fluidType": "air",
+                "wanderRate": 0
+            },
+            {
+                "position": {"x":  -53.05544, "y": -102.4894, "z": 138.1341},
+                "tint": {
+                    "r": 122, "g": 126, "b": 191
+                },
+                "height": 100,
+                "fluidType": "air",
+                "wanderRate": 0
+            },
+            {
+                "position": {"x":  130.2888, "y": -0.2873347, "z": -124.1963},
+                "tint": {
+                    "r": 122, "g": 126, "b": 191
+                },
+                "height": 100,
+                "fluidType": "air",
+                "wanderRate": 0
+            }
+        ]
+    }
+    
+}

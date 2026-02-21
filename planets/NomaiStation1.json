@@ -1,0 +1,42 @@
+{
+    "name": "Space Station",
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "ElementalSystem",
+    "Base": {
+        "groundSize": 0,
+        "surfaceSize": 0,
+        "surfaceGravity": 0
+    },
+    "Orbit": {
+        "semiMajorAxis": 235,
+        "primaryBody": "Copper",
+        "isMoon": true,
+        "isTidallyLocked": false,
+        "alignmentAxis": {
+            "x": -1,
+            "y": 0,
+            "z": 1 
+        },
+        "dottedOrbitLine": true,
+        "axialTilt": 90
+    },
+    "MapMarker": {
+        "enabled": true
+    },
+    "Props": {
+        
+        "details": [
+            {
+                "assetBundle": "planets/Assets/ElementalSystem2/asteroids",
+                "path": "Assets/What am i doing here/NomaiStation.prefab",
+                "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0},
+                "keepLoaded": true,
+                "scale": 1
+            }
+        ]
+    }
+
+}

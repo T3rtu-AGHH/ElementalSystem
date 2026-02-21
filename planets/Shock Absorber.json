@@ -1,0 +1,94 @@
+{
+    "name": "Magnesium",
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "ElementalSystem",
+    "Base": {
+        "groundSize": 0,
+        "surfaceSize": 100,
+        "surfaceGravity": 12
+    },
+    "Orbit": {
+        "semiMajorAxis": 160,
+        "primaryBody": "Close Companions",
+        "isMoon": true,
+        "isTidallyLocked": true,
+        "alignmentAxis": {
+            "x": 0,
+            "y": 0,
+            "z": 0 
+        }
+    },
+    "Atmosphere": {
+        "atmosphereSunIntensity" : 0.1,
+        "atmosphereTint": {
+            "r": 210,
+            "g": 215,
+            "b": 252,
+            "a": 55
+        },
+        "size": 140,
+        "fogTint": {
+            "r": 210,
+            "g": 215,
+            "b": 252,
+            "a": 255
+        },
+        "fogSize": 140,
+        "fogDensity": 0.2,
+        "useAtmosphereShader" : false,
+        "hasRain": false
+        
+        
+    },
+    "Sand" : {
+     "tint" :{
+         "r": 236,
+         "g": 227,
+         "b": 252,
+         "a": 255
+        },
+        "size" : 80
+    },
+    "MapMarker": {
+        "enabled": true
+    },
+    "Props": {
+        "details": [
+            {
+                "assetBundle": "planets/Assets/Bundle1/elementalsystembundle",
+                "path": "Assets/What am i doing here/Shock Absorber.prefab",
+                "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0},
+                "keepLoaded": true,
+                "scale" : 0.75
+            }
+        ]
+    },
+      "Spawn": 
+    {
+        "playerSpawnPoints" : 
+        [
+            {
+                "position" : 
+                {
+                    "x": 0,
+					"y": 115,
+					"z": 0
+                }
+            }
+        ],
+        "shipSpawnPoints":
+        [
+            {
+                "position" : 
+                {
+                    "x": 0,
+					"y": 100,
+					"z": 0
+                }
+            }
+        ]
+    }
+}

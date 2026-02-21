@@ -1,0 +1,70 @@
+{
+    "name": "Copper",
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "ElementalSystem",
+    "Base": {
+        "groundSize": 0,
+        "surfaceSize": 110,
+        "surfaceGravity": 12
+    },
+    "Orbit": {
+        "semiMajorAxis": 2250,
+        "primaryBody": "Hydrogen",
+        "isMoon": false,
+        "isTidallyLocked": false,
+        "alignmentAxis": {
+            "x": 0,
+            "y": 0,
+            "z": 0 
+        },
+        "siderealPeriod": 3,
+        "trueAnomaly": 60,
+        "tint": 
+        {
+            "r": 255,
+            "g": 189,
+            "b": 209,
+            "a": 255
+        }
+    },
+
+    "Atmosphere": {
+        "atmosphereSunIntensity" : 0.1,
+        "atmosphereTint": {
+            "r": 227,
+            "g": 189,
+            "b": 255,
+            "a": 55
+        },
+        "size": 170,
+        "fogTint": {
+            "r": 227,
+            "g": 189,
+            "b": 255,
+            "a": 255
+        },
+        "fogSize": 160,
+        "fogDensity": 0.2,
+        "useAtmosphereShader" : false,
+        "hasRain": false
+        
+        
+    },
+    "MapMarker": {
+        "enabled": true
+    },
+    "Props": {
+        "details": [
+            {
+                "assetBundle": "planets/Assets/Bundle1/elementalsystembundle",
+                "path": "Assets/What am i doing here/CopperPlanet.prefab",
+                "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0},
+                "keepLoaded": true,
+                "scale" : 0.88
+            }
+        ]
+    }
+}

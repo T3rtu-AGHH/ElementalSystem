@@ -1,0 +1,22 @@
+{
+	"name" : "Close Companions",
+    "starSystem": "ElementalSystem",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"Base" :
+	{
+		"hasMapMarker" : true
+	},
+	"ReferenceFrame": {
+		"enabled": false
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 1500,
+		"primaryBody" : "Hydrogen"
+	},
+	"FocalPoint" :
+	{
+		"primary" : "Sodium",
+		"secondary" : "Magnesium"
+	}
+}
