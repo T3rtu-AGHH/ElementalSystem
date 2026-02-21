@@ -1,0 +1,10 @@
+{
+	"$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
+	"filename": "NewHorizonsConfig.dll",
+	"author": "T3rtu",
+	"name": "Elemental System",
+	"uniqueName": "T3rtu.Elemental",
+	"version": "0.1.4",
+	"owmlVersion": "2.15.1",
+	"dependencies": [ "xen.NewHorizons" ]
+}
