@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3187540978
+CRC: 475105370
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e7675bab1b391003af78d1697edd0faf
+    Hash: 5b4964f7392d67888ecc6a60a11063c1
   TypeTreeHash:
     serializedVersion: 2
     Hash: 972d017209c944ef18abe2107a6d22f4
@@ -53,6 +53,7 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/What am i doing here/Helium.prefab
 - Assets/What am i doing here/Asteroid3.prefab
 - Assets/What am i doing here/Asteroid5.prefab
 - Assets/What am i doing here/Asteroid2.prefab

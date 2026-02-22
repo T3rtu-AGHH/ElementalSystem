@@ -4,7 +4,7 @@
     "starSystem": "ElementalSystem",
     "Base": {
         "groundSize": 0,
-        "surfaceSize": 150,
+        "surfaceSize": 180,
         "surfaceGravity": 24
     },
     "Orbit": {
@@ -90,6 +90,13 @@
                 "position": {"x":  -86.75558, "y": -109.0299, "z": -157.1177},
                 "assetBundle": "planets/Assets/ElementalSystem2/asteroids",
                 "path": "Assets/What am i doing here/Asteroid1.prefab"
+            },
+            {
+                "position": {"x":  0, "y": 0, "z": 0},
+                "assetBundle": "planets/Assets/ElementalSystem2/asteroids",
+                "path": "Assets/What am i doing here/Helium.prefab",
+                "scale": 2
+                
             },
             {
                 "position": {"x":  147.3836, "y": 50.84706, "z": 140.6864},
